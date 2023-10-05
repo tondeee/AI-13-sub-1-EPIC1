@@ -9,5 +9,6 @@ int main()
     cout << "Anatolii Bachyk";   
     cout << "Marta Lemishko";
     
+    cout <<"maryna Polishchuk";
     
 }
