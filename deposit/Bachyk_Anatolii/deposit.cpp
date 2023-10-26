@@ -25,6 +25,8 @@ cout << "Enter the number of times interest is compounded per year:" << endl;
 
 
     cout << "Hello, " << name << "!" << endl;
-    cout << "The compound interest for a principal of " << amount << " at a rate of " << interest << "% compounded " << times << " times a year for " << number << " years is: " << sum2 << ". The total amount after" << number << "years is: " << sum1 << endl;   
+    cout << "The compound interest for a principal of " << amount << " at a rate of " 
+    << interest << "% compounded " << times << " times a year for " << number << " years is: "
+     << sum2 << ". The total amount after" << number << "years is: " << sum1 << endl;   
     return 0;
 }
