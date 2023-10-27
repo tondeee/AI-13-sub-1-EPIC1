@@ -27,6 +27,7 @@ double res;
 
 res = principal * pow((1 + rate / 100), years * period);
 
+printf("Hello, %s \n", name);
 printf ("The compound interest for a principal of %.2f at a rate of %.2f%% compounded %d times a year for %d years is: %.2f\n", principal, rate * 100, period, years, res);
 
 return 0;
